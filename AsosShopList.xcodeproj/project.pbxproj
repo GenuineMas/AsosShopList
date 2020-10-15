@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13469ABB1DC790CE97E33938 /* Pods_AsosShopList_AsosShopListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE009AA113505AEC0E78EE5 /* Pods_AsosShopList_AsosShopListUITests.framework */; };
 		8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379C25390DDF0066B50D /* AppDelegate.swift */; };
 		8C4E379F25390DDF0066B50D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379E25390DDF0066B50D /* SceneDelegate.swift */; };
 		8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A025390DDF0066B50D /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */; };
 		8C4E37B725390DE00066B50D /* AsosShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37B625390DE00066B50D /* AsosShopListTests.swift */; };
 		8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */; };
+		AF434BEB9D2157943B654595 /* Pods_AsosShopList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C883EA8AFE73002AE43F751 /* Pods_AsosShopList.framework */; };
+		E52FE078E4C83B465888ACA6 /* Pods_AsosShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C883EA8AFE73002AE43F751 /* Pods_AsosShopList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsosShopList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487D2C763BBEE3387DF284E7 /* Pods-AsosShopList-AsosShopListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList-AsosShopListUITests.release.xcconfig"; path = "Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65823DBC40B402DCFF0D0A82 /* Pods-AsosShopListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopListTests.release.xcconfig"; path = "Target Support Files/Pods-AsosShopListTests/Pods-AsosShopListTests.release.xcconfig"; sourceTree = "<group>"; };
+		68F5D1810B140DB0EC564B4A /* Pods-AsosShopListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopListTests.debug.xcconfig"; path = "Target Support Files/Pods-AsosShopListTests/Pods-AsosShopListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C4E379925390DDE0066B50D /* AsosShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsosShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E379C25390DDF0066B50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4E379E25390DDF0066B50D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsosShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopListUITests.swift; sourceTree = "<group>"; };
 		8C4E37C325390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26A74FA82B44D42ABC53B45 /* Pods-AsosShopList-AsosShopListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; path = "Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsosShopListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE841E7C15ABCA8408A49EB /* Pods-AsosShopList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList.release.xcconfig"; path = "Target Support Files/Pods-AsosShopList/Pods-AsosShopList.release.xcconfig"; sourceTree = "<group>"; };
+		EC47255B81DF8586682121E6 /* Pods-AsosShopList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList.debug.xcconfig"; path = "Target Support Files/Pods-AsosShopList/Pods-AsosShopList.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE009AA113505AEC0E78EE5 /* Pods_AsosShopList_AsosShopListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsosShopList_AsosShopListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF434BEB9D2157943B654595 /* Pods_AsosShopList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52FE078E4C83B465888ACA6 /* Pods_AsosShopListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13469ABB1DC790CE97E33938 /* Pods_AsosShopList_AsosShopListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				8C4E37B525390DE00066B50D /* AsosShopListTests */,
 				8C4E37C025390DE00066B50D /* AsosShopListUITests */,
 				8C4E379A25390DDE0066B50D /* Products */,
+				BF88C66E411E490E918CDAF1 /* Pods */,
+				E0F26545D925E24C53BE2B7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = AsosShopListUITests;
 			sourceTree = "<group>";
 		};
+		BF88C66E411E490E918CDAF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC47255B81DF8586682121E6 /* Pods-AsosShopList.debug.xcconfig */,
+				CDE841E7C15ABCA8408A49EB /* Pods-AsosShopList.release.xcconfig */,
+				B26A74FA82B44D42ABC53B45 /* Pods-AsosShopList-AsosShopListUITests.debug.xcconfig */,
+				487D2C763BBEE3387DF284E7 /* Pods-AsosShopList-AsosShopListUITests.release.xcconfig */,
+				68F5D1810B140DB0EC564B4A /* Pods-AsosShopListTests.debug.xcconfig */,
+				65823DBC40B402DCFF0D0A82 /* Pods-AsosShopListTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0F26545D925E24C53BE2B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C883EA8AFE73002AE43F751 /* Pods_AsosShopList.framework */,
+				FEE009AA113505AEC0E78EE5 /* Pods_AsosShopList_AsosShopListUITests.framework */,
+				C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4E37C625390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopList" */;
 			buildPhases = (
+				62A4A96E9C5090794E61E2C2 /* [CP] Check Pods Manifest.lock */,
 				8C4E379525390DDE0066B50D /* Sources */,
 				8C4E379625390DDE0066B50D /* Frameworks */,
 				8C4E379725390DDE0066B50D /* Resources */,
+				B2F1F33E797DD0D6095673CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4E37C925390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListTests" */;
 			buildPhases = (
+				D3B0C510943950846BE13B28 /* [CP] Check Pods Manifest.lock */,
 				8C4E37AE25390DE00066B50D /* Sources */,
 				8C4E37AF25390DE00066B50D /* Frameworks */,
 				8C4E37B025390DE00066B50D /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4E37CC25390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListUITests" */;
 			buildPhases = (
+				CB511DC6060ECA9F9A102246 /* [CP] Check Pods Manifest.lock */,
 				8C4E37B925390DE00066B50D /* Sources */,
 				8C4E37BA25390DE00066B50D /* Frameworks */,
 				8C4E37BB25390DE00066B50D /* Resources */,
+				4BE9A64D8364F90A58E5DD4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BE9A64D8364F90A58E5DD4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A4A96E9C5090794E61E2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsosShopList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F1F33E797DD0D6095673CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsosShopList/Pods-AsosShopList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsosShopList/Pods-AsosShopList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsosShopList/Pods-AsosShopList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB511DC6060ECA9F9A102246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsosShopList-AsosShopListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B0C510943950846BE13B28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsosShopListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C4E379525390DDE0066B50D /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		8C4E37C725390DE00066B50D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC47255B81DF8586682121E6 /* Pods-AsosShopList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		8C4E37C825390DE00066B50D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE841E7C15ABCA8408A49EB /* Pods-AsosShopList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		8C4E37CA25390DE00066B50D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F5D1810B140DB0EC564B4A /* Pods-AsosShopListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		8C4E37CB25390DE00066B50D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65823DBC40B402DCFF0D0A82 /* Pods-AsosShopListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		8C4E37CD25390DE00066B50D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26A74FA82B44D42ABC53B45 /* Pods-AsosShopList-AsosShopListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		8C4E37CE25390DE00066B50D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487D2C763BBEE3387DF284E7 /* Pods-AsosShopList-AsosShopListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
