@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379C25390DDF0066B50D /* AppDelegate.swift */; };
+		8C4E379F25390DDF0066B50D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379E25390DDF0066B50D /* SceneDelegate.swift */; };
+		8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A025390DDF0066B50D /* ViewController.swift */; };
+		8C4E37A425390DDF0066B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37A225390DDF0066B50D /* Main.storyboard */; };
+		8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A525390DDF0066B50D /* AsosShopList.xcdatamodeld */; };
+		8C4E37A925390DE00066B50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37A825390DE00066B50D /* Assets.xcassets */; };
+		8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */; };
+		8C4E37B725390DE00066B50D /* AsosShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37B625390DE00066B50D /* AsosShopListTests.swift */; };
+		8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4E37B325390DE00066B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4E379125390DDE0066B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4E379825390DDE0066B50D;
+			remoteInfo = AsosShopList;
+		};
+		8C4E37BE25390DE00066B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4E379125390DDE0066B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4E379825390DDE0066B50D;
+			remoteInfo = AsosShopList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4E379925390DDE0066B50D /* AsosShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsosShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E379C25390DDF0066B50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C4E379E25390DDF0066B50D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C4E37A025390DDF0066B50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C4E37A325390DDF0066B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4E37A625390DDF0066B50D /* AsosShopList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsosShopList.xcdatamodel; sourceTree = "<group>"; };
+		8C4E37A825390DE00066B50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C4E37AB25390DE00066B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C4E37AD25390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4E37B225390DE00066B50D /* AsosShopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsosShopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E37B625390DE00066B50D /* AsosShopListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopListTests.swift; sourceTree = "<group>"; };
+		8C4E37B825390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsosShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopListUITests.swift; sourceTree = "<group>"; };
+		8C4E37C325390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C4E379625390DDE0066B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37AF25390DE00066B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37BA25390DE00066B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4E379025390DDE0066B50D = {
+			isa = PBXGroup;
+			children = (
+				8C4E379B25390DDE0066B50D /* AsosShopList */,
+				8C4E37B525390DE00066B50D /* AsosShopListTests */,
+				8C4E37C025390DE00066B50D /* AsosShopListUITests */,
+				8C4E379A25390DDE0066B50D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4E379A25390DDE0066B50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E379925390DDE0066B50D /* AsosShopList.app */,
+				8C4E37B225390DE00066B50D /* AsosShopListTests.xctest */,
+				8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4E379B25390DDE0066B50D /* AsosShopList */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E379C25390DDF0066B50D /* AppDelegate.swift */,
+				8C4E379E25390DDF0066B50D /* SceneDelegate.swift */,
+				8C4E37A025390DDF0066B50D /* ViewController.swift */,
+				8C4E37A225390DDF0066B50D /* Main.storyboard */,
+				8C4E37A825390DE00066B50D /* Assets.xcassets */,
+				8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */,
+				8C4E37AD25390DE00066B50D /* Info.plist */,
+				8C4E37A525390DDF0066B50D /* AsosShopList.xcdatamodeld */,
+			);
+			path = AsosShopList;
+			sourceTree = "<group>";
+		};
+		8C4E37B525390DE00066B50D /* AsosShopListTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E37B625390DE00066B50D /* AsosShopListTests.swift */,
+				8C4E37B825390DE00066B50D /* Info.plist */,
+			);
+			path = AsosShopListTests;
+			sourceTree = "<group>";
+		};
+		8C4E37C025390DE00066B50D /* AsosShopListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */,
+				8C4E37C325390DE00066B50D /* Info.plist */,
+			);
+			path = AsosShopListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C4E379825390DDE0066B50D /* AsosShopList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E37C625390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopList" */;
+			buildPhases = (
+				8C4E379525390DDE0066B50D /* Sources */,
+				8C4E379625390DDE0066B50D /* Frameworks */,
+				8C4E379725390DDE0066B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsosShopList;
+			productName = AsosShopList;
+			productReference = 8C4E379925390DDE0066B50D /* AsosShopList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4E37B125390DE00066B50D /* AsosShopListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E37C925390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListTests" */;
+			buildPhases = (
+				8C4E37AE25390DE00066B50D /* Sources */,
+				8C4E37AF25390DE00066B50D /* Frameworks */,
+				8C4E37B025390DE00066B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4E37B425390DE00066B50D /* PBXTargetDependency */,
+			);
+			name = AsosShopListTests;
+			productName = AsosShopListTests;
+			productReference = 8C4E37B225390DE00066B50D /* AsosShopListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C4E37BC25390DE00066B50D /* AsosShopListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E37CC25390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListUITests" */;
+			buildPhases = (
+				8C4E37B925390DE00066B50D /* Sources */,
+				8C4E37BA25390DE00066B50D /* Frameworks */,
+				8C4E37BB25390DE00066B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4E37BF25390DE00066B50D /* PBXTargetDependency */,
+			);
+			name = AsosShopListUITests;
+			productName = AsosShopListUITests;
+			productReference = 8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4E379125390DDE0066B50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Genuine;
+				TargetAttributes = {
+					8C4E379825390DDE0066B50D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8C4E37B125390DE00066B50D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8C4E379825390DDE0066B50D;
+					};
+					8C4E37BC25390DE00066B50D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8C4E379825390DDE0066B50D;
+					};
+				};
+			};
+			buildConfigurationList = 8C4E379425390DDE0066B50D /* Build configuration list for PBXProject "AsosShopList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4E379025390DDE0066B50D;
+			productRefGroup = 8C4E379A25390DDE0066B50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4E379825390DDE0066B50D /* AsosShopList */,
+				8C4E37B125390DE00066B50D /* AsosShopListTests */,
+				8C4E37BC25390DE00066B50D /* AsosShopListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C4E379725390DDE0066B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */,
+				8C4E37A925390DE00066B50D /* Assets.xcassets in Resources */,
+				8C4E37A425390DDF0066B50D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37B025390DE00066B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37BB25390DE00066B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C4E379525390DDE0066B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */,
+				8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */,
+				8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */,
+				8C4E379F25390DDF0066B50D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37AE25390DE00066B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E37B725390DE00066B50D /* AsosShopListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E37B925390DE00066B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4E37B425390DE00066B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4E379825390DDE0066B50D /* AsosShopList */;
+			targetProxy = 8C4E37B325390DE00066B50D /* PBXContainerItemProxy */;
+		};
+		8C4E37BF25390DE00066B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4E379825390DDE0066B50D /* AsosShopList */;
+			targetProxy = 8C4E37BE25390DE00066B50D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4E37A225390DDF0066B50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4E37A325390DDF0066B50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4E37AB25390DE00066B50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4E37C425390DE00066B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C4E37C525390DE00066B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4E37C725390DE00066B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C4E37C825390DE00066B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C4E37CA25390DE00066B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsosShopList.app/AsosShopList";
+			};
+			name = Debug;
+		};
+		8C4E37CB25390DE00066B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsosShopList.app/AsosShopList";
+			};
+			name = Release;
+		};
+		8C4E37CD25390DE00066B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsosShopList;
+			};
+			name = Debug;
+		};
+		8C4E37CE25390DE00066B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				INFOPLIST_FILE = AsosShopListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AsosShopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsosShopList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4E379425390DDE0066B50D /* Build configuration list for PBXProject "AsosShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E37C425390DE00066B50D /* Debug */,
+				8C4E37C525390DE00066B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E37C625390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E37C725390DE00066B50D /* Debug */,
+				8C4E37C825390DE00066B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E37C925390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E37CA25390DE00066B50D /* Debug */,
+				8C4E37CB25390DE00066B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E37CC25390DE00066B50D /* Build configuration list for PBXNativeTarget "AsosShopListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E37CD25390DE00066B50D /* Debug */,
+				8C4E37CE25390DE00066B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C4E37A525390DDF0066B50D /* AsosShopList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C4E37A625390DDF0066B50D /* AsosShopList.xcdatamodel */,
+			);
+			currentVersion = 8C4E37A625390DDF0066B50D /* AsosShopList.xcdatamodel */;
+			path = AsosShopList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C4E379125390DDE0066B50D /* Project object */;
+}
