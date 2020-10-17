@@ -7,14 +7,37 @@
 //
 
 import UIKit
+import Alamofire
+import RxSwift
+import RxAlamofire
+
+
+
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        fetchProducts()
+   
+        
         // Do any additional setup after loading the view.
     }
-
-
 }
+extension ViewController {
+
+
+    func fetchProducts() { AF.request("https://rapidapi.p.rapidapi.com/products/v2/list?offset=0&categoryId=4208&limit=48&store=US&country=US&currency=USD&sort=freshness&lang=en-US&sizeSchema=US", headers: [
+        "x-rapidapi-host": "asos2.p.rapidapi.com",
+        "x-rapidapi-key": "f3b5951342msh4a44561c74c84bcp185c8ejsna6390b3b6324"
+    ])
+        .responseDecodable(of:ProductList.self) { response in
+            guard let products = response.value else { return }
+            print(products)
+            debugPrint(response)
+        }
+    }
+}
+
 

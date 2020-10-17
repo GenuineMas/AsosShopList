@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */; };
 		8C4E37B725390DE00066B50D /* AsosShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37B625390DE00066B50D /* AsosShopListTests.swift */; };
 		8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */; };
+		8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEB2539C42400EE7750 /* Webservice.swift */; };
+		8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */; };
 		AF434BEB9D2157943B654595 /* Pods_AsosShopList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C883EA8AFE73002AE43F751 /* Pods_AsosShopList.framework */; };
 		E52FE078E4C83B465888ACA6 /* Pods_AsosShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsosShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopListUITests.swift; sourceTree = "<group>"; };
 		8C4E37C325390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAEFAEB2539C42400EE7750 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		B26A74FA82B44D42ABC53B45 /* Pods-AsosShopList-AsosShopListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; path = "Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsosShopListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE841E7C15ABCA8408A49EB /* Pods-AsosShopList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList.release.xcconfig"; path = "Target Support Files/Pods-AsosShopList/Pods-AsosShopList.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 		8C4E379B25390DDE0066B50D /* AsosShopList */ = {
 			isa = PBXGroup;
 			children = (
+				8CAEFAED2539C49C00EE7750 /* Models */,
+				8CAEFAEB2539C42400EE7750 /* Webservice.swift */,
 				8C4E379C25390DDF0066B50D /* AppDelegate.swift */,
 				8C4E379E25390DDF0066B50D /* SceneDelegate.swift */,
 				8C4E37A025390DDF0066B50D /* ViewController.swift */,
@@ -148,6 +154,14 @@
 			path = AsosShopListUITests;
 			sourceTree = "<group>";
 		};
+		8CAEFAED2539C49C00EE7750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BF88C66E411E490E918CDAF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +172,6 @@
 				68F5D1810B140DB0EC564B4A /* Pods-AsosShopListTests.debug.xcconfig */,
 				65823DBC40B402DCFF0D0A82 /* Pods-AsosShopListTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,6 +424,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */,
+				8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */,
 				8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */,
 				8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */,
 				8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */,
