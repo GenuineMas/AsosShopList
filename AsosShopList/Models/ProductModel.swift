@@ -18,7 +18,7 @@ struct ProductList:Codable{
             let current : Current
         }
         let price : Price
-        let id : Int
+        let id : Int //adding id property in case when you get image gallery (by id in products/v3/detail)
         let name : String
         let imageUrl : String
     }

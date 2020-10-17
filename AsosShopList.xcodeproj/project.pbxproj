@@ -19,6 +19,9 @@
 		8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */; };
 		8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEB2539C42400EE7750 /* Webservice.swift */; };
 		8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */; };
+		8CAFF7BE253B53860045451C /* AsosShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFF7BD253B53860045451C /* AsosShopViewModel.swift */; };
+		8CAFF7C6253B650A0045451C /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFF7C4253B650A0045451C /* ProductTableViewCell.swift */; };
+		8CAFF7C7253B650A0045451C /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAFF7C5253B650A0045451C /* ProductTableViewCell.xib */; };
 		AF434BEB9D2157943B654595 /* Pods_AsosShopList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C883EA8AFE73002AE43F751 /* Pods_AsosShopList.framework */; };
 		E52FE078E4C83B465888ACA6 /* Pods_AsosShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		8C4E37C325390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CAEFAEB2539C42400EE7750 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		8CAFF7BD253B53860045451C /* AsosShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopViewModel.swift; sourceTree = "<group>"; };
+		8CAFF7C4253B650A0045451C /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		8CAFF7C5253B650A0045451C /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		B26A74FA82B44D42ABC53B45 /* Pods-AsosShopList-AsosShopListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; path = "Target Support Files/Pods-AsosShopList-AsosShopListUITests/Pods-AsosShopList-AsosShopListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9063710322DD289E4555C68 /* Pods_AsosShopListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsosShopListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE841E7C15ABCA8408A49EB /* Pods-AsosShopList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsosShopList.release.xcconfig"; path = "Target Support Files/Pods-AsosShopList/Pods-AsosShopList.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,12 +128,12 @@
 		8C4E379B25390DDE0066B50D /* AsosShopList */ = {
 			isa = PBXGroup;
 			children = (
+				8CAFF7BF253B635C0045451C /* Views */,
+				8CAFF7BC253B536D0045451C /* ViewModel */,
 				8CAEFAED2539C49C00EE7750 /* Models */,
 				8CAEFAEB2539C42400EE7750 /* Webservice.swift */,
 				8C4E379C25390DDF0066B50D /* AppDelegate.swift */,
 				8C4E379E25390DDF0066B50D /* SceneDelegate.swift */,
-				8C4E37A025390DDF0066B50D /* ViewController.swift */,
-				8C4E37A225390DDF0066B50D /* Main.storyboard */,
 				8C4E37A825390DE00066B50D /* Assets.xcassets */,
 				8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */,
 				8C4E37AD25390DE00066B50D /* Info.plist */,
@@ -160,6 +166,25 @@
 				8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8CAFF7BC253B536D0045451C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CAFF7BD253B53860045451C /* AsosShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CAFF7BF253B635C0045451C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E37A025390DDF0066B50D /* ViewController.swift */,
+				8CAFF7C4253B650A0045451C /* ProductTableViewCell.swift */,
+				8C4E37A225390DDF0066B50D /* Main.storyboard */,
+				8CAFF7C5253B650A0045451C /* ProductTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BF88C66E411E490E918CDAF1 /* Pods */ = {
@@ -295,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */,
+				8CAFF7C7253B650A0045451C /* ProductTableViewCell.xib in Resources */,
 				8C4E37A925390DE00066B50D /* Assets.xcassets in Resources */,
 				8C4E37A425390DDF0066B50D /* Main.storyboard in Resources */,
 			);
@@ -425,6 +451,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */,
+				8CAFF7C6253B650A0045451C /* ProductTableViewCell.swift in Sources */,
+				8CAFF7BE253B53860045451C /* AsosShopViewModel.swift in Sources */,
 				8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */,
 				8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */,
 				8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */,
