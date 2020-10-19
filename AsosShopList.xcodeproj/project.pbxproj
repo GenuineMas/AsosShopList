@@ -10,13 +10,14 @@
 		13469ABB1DC790CE97E33938 /* Pods_AsosShopList_AsosShopListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE009AA113505AEC0E78EE5 /* Pods_AsosShopList_AsosShopListUITests.framework */; };
 		8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379C25390DDF0066B50D /* AppDelegate.swift */; };
 		8C4E379F25390DDF0066B50D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E379E25390DDF0066B50D /* SceneDelegate.swift */; };
-		8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A025390DDF0066B50D /* ViewController.swift */; };
+		8C4E37A125390DDF0066B50D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A025390DDF0066B50D /* ProductViewController.swift */; };
 		8C4E37A425390DDF0066B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37A225390DDF0066B50D /* Main.storyboard */; };
 		8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37A525390DDF0066B50D /* AsosShopList.xcdatamodeld */; };
 		8C4E37A925390DE00066B50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37A825390DE00066B50D /* Assets.xcassets */; };
 		8C4E37AC25390DE00066B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E37AA25390DE00066B50D /* LaunchScreen.storyboard */; };
 		8C4E37B725390DE00066B50D /* AsosShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37B625390DE00066B50D /* AsosShopListTests.swift */; };
 		8C4E37C225390DE00066B50D /* AsosShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */; };
+		8C9AE04A253C56970004654D /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9AE049253C56970004654D /* ImageService.swift */; };
 		8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEB2539C42400EE7750 /* Webservice.swift */; };
 		8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */; };
 		8CAFF7BE253B53860045451C /* AsosShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFF7BD253B53860045451C /* AsosShopViewModel.swift */; };
@@ -51,7 +52,7 @@
 		8C4E379925390DDE0066B50D /* AsosShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsosShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E379C25390DDF0066B50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4E379E25390DDF0066B50D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C4E37A025390DDF0066B50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C4E37A025390DDF0066B50D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		8C4E37A325390DDF0066B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4E37A625390DDF0066B50D /* AsosShopList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsosShopList.xcdatamodel; sourceTree = "<group>"; };
 		8C4E37A825390DE00066B50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		8C4E37BD25390DE00066B50D /* AsosShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsosShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E37C125390DE00066B50D /* AsosShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopListUITests.swift; sourceTree = "<group>"; };
 		8C4E37C325390DE00066B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9AE049253C56970004654D /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		8CAEFAEB2539C42400EE7750 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		8CAEFAEE2539C4AC00EE7750 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		8CAFF7BD253B53860045451C /* AsosShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosShopViewModel.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		8C4E379B25390DDE0066B50D /* AsosShopList */ = {
 			isa = PBXGroup;
 			children = (
+				8C9AE048253C567A0004654D /* Services */,
 				8CAFF7BF253B635C0045451C /* Views */,
 				8CAFF7BC253B536D0045451C /* ViewModel */,
 				8CAEFAED2539C49C00EE7750 /* Models */,
@@ -160,6 +163,14 @@
 			path = AsosShopListUITests;
 			sourceTree = "<group>";
 		};
+		8C9AE048253C567A0004654D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C9AE049253C56970004654D /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8CAEFAED2539C49C00EE7750 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +190,7 @@
 		8CAFF7BF253B635C0045451C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8C4E37A025390DDF0066B50D /* ViewController.swift */,
+				8C4E37A025390DDF0066B50D /* ProductViewController.swift */,
 				8CAFF7C4253B650A0045451C /* ProductTableViewCell.swift */,
 				8C4E37A225390DDF0066B50D /* Main.storyboard */,
 				8CAFF7C5253B650A0045451C /* ProductTableViewCell.xib */,
@@ -452,9 +463,10 @@
 			files = (
 				8CAEFAEC2539C42400EE7750 /* Webservice.swift in Sources */,
 				8CAFF7C6253B650A0045451C /* ProductTableViewCell.swift in Sources */,
+				8C9AE04A253C56970004654D /* ImageService.swift in Sources */,
 				8CAFF7BE253B53860045451C /* AsosShopViewModel.swift in Sources */,
 				8CAEFAEF2539C4AC00EE7750 /* ProductModel.swift in Sources */,
-				8C4E37A125390DDF0066B50D /* ViewController.swift in Sources */,
+				8C4E37A125390DDF0066B50D /* ProductViewController.swift in Sources */,
 				8C4E37A725390DDF0066B50D /* AsosShopList.xcdatamodeld in Sources */,
 				8C4E379D25390DDF0066B50D /* AppDelegate.swift in Sources */,
 				8C4E379F25390DDF0066B50D /* SceneDelegate.swift in Sources */,

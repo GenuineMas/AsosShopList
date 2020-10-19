@@ -23,7 +23,9 @@ class ProductViewController: UITableViewController{
         tableView.delegate = nil
         tableView.rx.setDelegate(self).disposed(by: bag)
         bindTableView()
-        self.tableView.reloadData()
+        DispatchQueue.main.async {
+                   self.tableView.reloadData()
+                              }
     }
     
     private func bindTableView() {
@@ -38,13 +40,15 @@ class ProductViewController: UITableViewController{
         }).disposed(by: bag)
         
         viewModel.fetchProductList()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+                       }
+
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
           return 150
       }
-
-
 }
 
 

@@ -10,26 +10,31 @@ import Foundation
 import RxSwift
 import RxCocoa
 import Alamofire
+import AlamofireImage
 
 class ShopViewModel {
     //Put your key here
     let items = PublishSubject<[ProductList.Product]>()
+    
     var headers = [
         "x-rapidapi-host": "asos2.p.rapidapi.com",
         "x-rapidapi-key": "f3b5951342msh4a44561c74c84bcp185c8ejsna6390b3b6324"
         ] as HTTPHeaders?
+    let requestHTTPS = "https://rapidapi.p.rapidapi.com/products/v2/list?offset=0&categoryId=4208&limit=48&store=US&country=US&currency=USD&sort=freshness&lang=en-US&sizeSchema=US"
+    var requestImage : String = ""
     
     func fetchProductList() {
         //did some network call here
         
-        AF.request("https://rapidapi.p.rapidapi.com/products/v2/list?offset=0&categoryId=4208&limit=48&store=US&country=US&currency=USD&sort=freshness&lang=en-US&sizeSchema=US", headers: headers)
+        AF.request(requestHTTPS, headers: headers)
             .responseDecodable(of:ProductList.self) { response in
                 guard let products = response.value else { return }
+                // requestImage = products.
                 self.items.onNext(products.products)//sending our product objects for binding to TableView
                 self.items.onCompleted() //terminating publish subject
                 print(products)
                 debugPrint(response)
+                
         }
     }
-    
 }
